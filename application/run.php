@@ -1,9 +1,5 @@
 <?php
 
-define('ROOT', __DIR__);
-define('DS', DIRECTORY_SEPARATOR);
-
-
 # incl slim framework
 require '../framework/Slim/Slim.php';
 require 'app/autoload.php';
@@ -19,7 +15,7 @@ $slim = \app\Core::Slim();
 $slim->get('/', [new controllers\Main(), 'index']);
 
 
-#
+# documentation page
 $slim->map('/documentation(/:link)', [new controllers\Main(), 'documentation'])
     ->via('GET')
     ->conditions([
@@ -41,12 +37,6 @@ $slim->map('/:action', ['controllers\Main','call'])
     ->conditions([
         'action'=>'login|logout|contacts'
     ]);
-
-
-
-
-
-
 
 
 $slim->run();
