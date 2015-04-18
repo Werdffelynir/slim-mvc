@@ -1,0 +1,132 @@
+
+*{}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-color: #E2E4E7;
+}
+
+body{
+    background-size: 100%;
+    font-family: 'UbuntuCondensedRegular', 'Ubuntu', sans-serif;
+    font-size: 12px;
+}
+
+
+/* COMMON
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+a{
+    color: #5C1212;
+}
+a:hover{
+    color: #AC3B12;
+    text-decoration: underline;
+}
+
+p{
+    padding: 3px 0 4px 0;
+}
+h1{
+    padding: 6px 0 8px;
+}
+h2{
+    padding: 5px 0 6px;
+}
+h3{
+    padding: 4px 0 5px;
+}
+h4{
+    padding: 3px 0 4px;
+}
+
+
+/* COMMON UI
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+.btn_blue{
+    border: 1px solid #103C89;
+    background-color: #3460AD;
+    color: #ffffff;
+}
+
+.btn_blue:hover{
+    background-color: #25519E;
+}
+
+
+
+/* PAGE ELEMENTS
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+
+/*  *  *  *  *  *  page  *  *  *  *  *  */
+.page{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid #979FAD;
+}
+
+/*  *  *  *  *  *  header  *  *  *  *  *  */
+
+.header{
+    padding: 10px;
+    background-color: #25519E;
+    border-bottom: 1px solid #193A4D;
+    color: #FFFFFF;
+}
+.header .logo{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*  *  *  *  *  *  navigate  *  *  *  *  *  */
+.navigate{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #95AECE;
+    color: #25519E;
+    text-align: center;
+    border-bottom: 1px solid #193A4D;
+}
+
+.navigate a{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+
+/*  *  *  *  *  *  content  *  *  *  *  *  */
+.content{
+    padding: 25px 0;
+}
+.content_full{
+    padding: 0 20px;
+    min-height: 600px;
+}
+
+.content_left{}
+
+
+.content_right{}
+
+
+/*  *  *  *  *  *  footer  *  *  *  *  *  */
+.footer{
+    background-color: #25519E;
+    border-top: 1px solid #193A4D;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+
+
+
